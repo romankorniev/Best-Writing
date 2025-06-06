@@ -1,0 +1,110 @@
+.price {
+    height: 290px;
+    background-color: var(--color_main_3);
+    background-image: url(../../images/Bg2.svg);
+    padding-top: 1px;
+}
+
+.price_h2 {
+    background-color: var(--color_main_4);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.span_price {
+    color: var(--color_btn_order_now);
+    font-size: 40px;
+}
+
+.get_a_price {
+    position: relative;
+    filter: drop-shadow(2px 3.464px 3.5px rgba(2,68,121,0.75));
+}
+
+.span_price::before {
+    content: '';
+    background-image: url(../../images/Arrow.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 100px;
+    top: 0;
+    right: 450px;
+}
+
+.get_a_price h2::before {
+    content: '';
+    border-top: 30px solid var(--color_main_4);
+    border-right: 30px solid transparent;
+    position: absolute;
+    top: 68px;
+    left: 0px;
+}
+
+h5 {
+    margin: 10px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: Roboto_Light;
+    text-align: left;
+    margin-top: 5px;
+}
+
+select {
+    width: 70%;
+    height: 35px;
+}
+
+.btn {
+    background-color: var(--color_btn_order_now);
+    width: 296px;
+    height: 35px;
+    display: block;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: Roboto_Medium;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 35px;
+    position: relative;
+}
+
+
+.btn:hover {
+    background-color: var(--color_btn_order_now_hover);
+}
+
+.h6_price {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: Roboto_Light;
+    text-align: center;
+}
+
+h6 {
+    margin: 20px;
+}
+
+.btn::before {
+    content: '';
+    border-top: 20px solid var(--color_btn_order_now);
+    border-right: 20px solid transparent;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    display: block;
+}
+
+.btn:hover::before {
+    border-top-color: var(--color_btn_order_now_hover);
+}

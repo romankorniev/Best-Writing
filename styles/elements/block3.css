@@ -1,0 +1,155 @@
+.block3 {
+    height: 720px;
+    background-image: url(../../images/Bg3.svg);
+    background-repeat: no-repeat;
+    background-position: center 300%;
+    padding-top: 1px;
+    background-color: #F4F6FA;
+}
+
+.number2 {
+    font-size: 49px;
+    line-height: 51px;
+    text-transform: uppercase;
+    color: #caddea;
+    font-weight: 700;
+    font-family: Rajdhani;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.line_float h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--color_main_1);
+    font-weight: 500;
+    font-family: Roboto_Bold;
+    text-align: justify;
+}
+
+.line_float {
+    border-bottom: 2px solid var(--color_main_4);
+    height: 80px;
+    position: relative;
+}
+
+.line_float:hover {
+    background-color: var(--color_main_3);
+    transition: 0.5s;
+}
+
+.line_float:hover h4 {
+    color: white;
+}
+
+.line_float::before {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 41px solid transparent;
+    border-left: 30px solid var(--color_main_3);
+    border-bottom: 41px solid transparent;
+    position: absolute;
+    left: 760px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.line_float:hover::before {
+    opacity: 1;
+    z-index: 2;
+}
+
+.table_float {
+    background-color: white;
+}
+
+.text_block {
+    font-size: 18px;
+    color: #000000;
+    font-family: "Arial Narrow";
+    text-align: justify;
+    margin: 0 45px;
+}
+
+.block_img {
+    width: 120px;
+    height: 120px;
+}
+
+.table_float {
+    width: 560px;
+    height: 490px;
+    filter: drop-shadow(2px 3.464px 3.5px rgba(167,192,200,0.75));
+    background-color: #ffffff;
+    position: absolute;
+    left: 760px;
+    opacity: 0;
+}
+
+.table_float h5 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #0983e5;
+    font-family: "Arial Narrow";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.line_float:hover .table_float {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.numb1 {
+ top: 0;
+}
+
+.numb2 {
+ top: -83px;
+}
+
+
+.numb3 {
+ top: -163px;
+}
+
+.numb4 {
+    top: -245px;
+}
+
+.numb5 {
+    top: -330px;
+}
+
+.numb6 {
+    top: -410px;
+}
+
+.btn2 {
+    background-color: var(--color_btn_order_now);
+    width: 310px;
+    height: 61px;
+    display: block;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: Roboto_Medium;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 35px;
+    position: relative;
+}
+
+
+.btn2:hover {
+    background-color: var(--color_btn_order_now_hover);
+}
+
+.btn_cont {
+    height: 120px;
+}

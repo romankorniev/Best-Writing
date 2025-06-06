@@ -1,0 +1,130 @@
+@import url(bootstrap-grid.min.css);
+
+@font-face {
+    font-family: Roboto_Black;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: Roboto_Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto_BoldItalic;
+    src: url(../fonts/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto_Light;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto_Medium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto_MediumItalic;
+    src: url(../fonts/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto_Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto_Thin;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: Roboto_ThinItalic;
+    src: url(../fonts/Roboto-ThinItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto_CondensedBold;
+    src: url(../fonts/RobotoCondensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto_CondensedLight;
+    src: url(../fonts/RobotoCondensed-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto_CondensedRegular;
+    src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color_main_1: #1b7fd0;
+    --color_main_2: #013056;
+    --color_main_3: #075DA2;
+    --color_main_4: #caddea;
+    --color_h1: #1b7fd0;
+    --color_h2: #1b7fd0;
+    --color_h3: #000000;
+    --color_h4: #1b7fd0;
+    --color_text: #000000;
+
+    --color_btn_read_more: #075DA2;
+    --color_btn_read_more_hover: #caddea;
+
+    --color_btn_send_message: #1b7fd0;
+    --color_btn_send_message_hover: #caddea;
+    
+    --color_btn_order_now: #dd0000;
+    --color_btn_order_now_hover: #a40000;
+
+    --color_btn_text: #ffffff;
+    --color_btn_text_hover: #1b7fd0;
+}
+
+h1 {
+    font-family: Roboto_Bold;
+    color: var(--color_h1);
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: Roboto_Bold;
+    color: var(--color_h2);
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: Roboto_Medium;
+    color: var(--color_h3);
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: Roboto_Medium;
+    color: var(--color_h4);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: var(--color_text);
+}
