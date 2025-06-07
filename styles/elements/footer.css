@@ -1,0 +1,124 @@
+.upfooter {
+    background-color: var(--color_main_4);
+    height: 75px;
+}
+
+.upfooter_content {
+    height: 75px;
+}
+
+.upfooter_content img {
+    width: 70px;
+    height: 45px;
+}
+
+.upfooter_content:nth-child(2) img {
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.faceb_img::before {
+    content: '';
+    width: 70px;
+    height: 45px;
+}
+
+.faceb_img:hover::before {
+    background-image: url(../../images/Facebook2.svg);
+    z-index: 1;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 611px;
+}
+
+.x_img::before {
+    content: '';
+    width: 70px;
+    height: 45px;
+}
+
+.pin_img::before {
+    content: '';
+    width: 70px;
+    height: 45px;
+}
+
+.x_img:hover::before {
+    background-image: url(../../images/Twiter2.svg);
+    z-index: 1;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 519px;
+}
+
+.pin_img:hover::before {
+    background-image: url(../../images/iconizer-Pinterest2.svg);
+    z-index: 1;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 395px;
+}
+
+.footer1 {
+    height: 365px;
+    background-image: url(../../images/Bg1.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: var(--color_main_2);
+}
+
+.footer1 ol {
+    list-style: none;
+    height: 258px;
+}
+
+.footer1 ol li{
+    font-size: 16px;
+    color: #caddea;
+    font-family: "Arial Narrow";
+    text-align: left;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+hr {
+    height: 2px;
+    background-color: #caddea;
+}
+
+.nav_footer {
+    margin: 2px;
+    list-style: none;
+    padding: 0;
+}
+
+.nav_footer a {
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: Roboto_Bold;
+    text-align: center;
+    padding: 7.6px 18px;
+}
+
+.border_footer::after{
+    content: ' ';
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.under_footer {
+    margin-top: 7px;
+    
+}
+
+.under_footer a {
+    color: #caddea;
+    display: inline-block;
+    margin: 0 15px;
+    font-family: Roboto_Light;
+}
