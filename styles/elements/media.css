@@ -62,4 +62,107 @@
     .footer1 {
         height: 100%;
     }
+
+    .under_nav h1::before {
+        top: 65px;
+    }
+}
+
+@media screen and (max-width:991px){
+    .line_float::before {
+        left: 410px;
+    }
+
+    .table_float {
+        left: 412px;
+        width: 300px;
+    }
+
+    .table_float h5 {
+        font-size: 15px;
+    }
+    
+    .text_block {
+        font-size: 12px;
+    }
+    
+    .span_price::before {
+        display: none;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .feature_h2::before{
+        top: 45px;
+    }
+
+    
+}
+
+@media screen and (max-width:767px){
+    .under_nav h1 {
+        font-size: 20px;
+    }
+
+    .price_h2 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 12px;
+    }
+
+    .h6_price {
+        font-size: 12px;
+    }
+
+    .h6_price span {
+        font-size: 20px !important;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+
+    .offers_h2 {
+        font-size: 17px;
+    }
+
+    .feature_h2 {
+        font-size: 17px;
+    }
+
+    .feature_h2::before {
+        top: 38px
+    }
+
+    .p_feature {
+        font-size: 15px;
+    }
+
+    .p_offer {
+        font-size: 15px;
+    }
+
+    .line_float {
+        border-bottom: 0;
+    }
+
+    .line_float h4 {
+    font-size: 12px;
+    }
+    .line_float::before {
+    left: 303px;
+    }
+
+    .table_float {
+        left: 304px;
+        width: 228px;
+    }
+
+    .text_block {
+    font-size: 10px;
+    }
 }

@@ -55,7 +55,8 @@
     z-index: 1;
     position: absolute;
     background-repeat: no-repeat;
-    right: 0px;
+    right: -21px;
+    bottom: 0;
 }
 
 .footer1 {
