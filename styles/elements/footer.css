@@ -96,6 +96,7 @@ hr {
     margin: 2px;
     list-style: none;
     padding: 0;
+    
 }
 
 .nav_footer a {
@@ -104,7 +105,16 @@ hr {
     text-transform: uppercase;
     font-family: Roboto_Bold;
     text-align: center;
-    padding: 7.6px 18px;
+    padding: 3px 19px;
+    position: relative;
+    &:hover{
+        background-color: 
+            var(--color_btn_send_message_hover);
+            color: var(--color_main_2);
+            box-shadow: -6px 0px 0px var(--color_btn_send_message_hover),
+            6px 0px 0px var(--color_btn_send_message_hover);
+        z-index: 1;
+  }
 }
 
 .border_footer::after{
@@ -114,8 +124,7 @@ hr {
 }
 
 .under_footer {
-    margin-top: 7px;
-    
+    margin-top: 7px;    
 }
 
 .under_footer a {
