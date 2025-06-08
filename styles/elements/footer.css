@@ -12,9 +12,7 @@
     height: 45px;
 }
 
-.upfooter_content:nth-child(2) img {
-    display: inline-block;
-    margin: 0 20px;
+.faceb_img, .x_img, .pin_img {
     position: relative;
 }
 
@@ -29,7 +27,7 @@
     z-index: 1;
     position: absolute;
     background-repeat: no-repeat;
-    right: 611px;
+    right: -24px;
 }
 
 .x_img::before {
@@ -49,7 +47,7 @@
     z-index: 1;
     position: absolute;
     background-repeat: no-repeat;
-    right: 519px;
+    right: -7px;
 }
 
 .pin_img:hover::before {
@@ -57,7 +55,7 @@
     z-index: 1;
     position: absolute;
     background-repeat: no-repeat;
-    right: 395px;
+    right: 0px;
 }
 
 .footer1 {

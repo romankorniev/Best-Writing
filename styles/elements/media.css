@@ -28,4 +28,38 @@
     .nav_footer a {
         padding: 3px 10px;
     }
+
+    .offer_form::before {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .under_nav h1 {
+        font-size: 29px;
+    }
+    .p_offer {
+        margin: 20px 0;
+    }
+    
+    .offers_2 {
+        height: 100%;
+    }
+
+    .line_float::before {
+        left: 550px;
+    }
+
+    .table_float {
+        left: 555px;
+        width: 399px;
+    }
+
+    .text_block {
+        font-size: 15px;
+    }
+    
+    .footer1 {
+        height: 100%;
+    }
 }

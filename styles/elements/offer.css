@@ -14,6 +14,7 @@
     text-align: center;
     filter: drop-shadow(2px 3.464px 3.5px rgba(155,182,190,0.75));
     padding: 15px 0;
+    position: relative;
 }
 
 .offer_text {
@@ -55,7 +56,7 @@
     /* overflow: hidden; */
 }
 
-.offer_form {
+.offer_form2 {
     position: relative;
     transition: 0.3s;
     &:hover {
@@ -65,7 +66,7 @@
     }
 }
 
-.offer_form::before{
+/* .offer_form::before{
     content: '';
     width: 0px;
     height: 0px;
@@ -79,7 +80,7 @@
 .offer_form:hover::before {
     border-top-color: white;
     transition: 0.3s;
-}
+} */
 
 .offer_text {
     text-align: justify;
