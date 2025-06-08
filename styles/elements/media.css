@@ -1,0 +1,31 @@
+@media screen and (max-width:1399px){
+    nav ul li a {
+        padding: 7.6px 21px;
+    }
+
+    .p_feature {
+        font-size: 18px;
+    }
+
+    .line_float::before {
+        left: 655px;
+    }
+
+    .table_float{
+        left: 658px;
+        width: 480px;
+    }
+
+    .offer_form::before {
+        right: 261px;   
+    }
+
+    .footer1 ol li a {
+        font-size: 10px;
+        line-height: 0px !important;
+    }
+
+    .nav_footer a {
+        padding: 3px 10px;
+    }
+}
